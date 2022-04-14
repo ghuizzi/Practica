@@ -1,0 +1,149 @@
+/* @media (max-width: 360px) {
+    body{
+        max-width: 100%;
+    }
+    header{
+        max-width: 721px;
+    }
+     .logo{
+        width: 30px;
+    }
+    .titulo{
+        width: 149px;
+    font-size: 10px;
+    margin-left: 11px;
+    }
+    
+    .navbar .link{
+        width: 204px;
+        margin-right: 315px;
+        margin-left: 0;
+    }
+    .navbar a{
+        font-size: 11px;
+    }
+    .row{
+        width: 460px;
+    }
+    .col2 .img2{
+        margin-top: 35px;
+
+    }
+    .main{
+        display: grid;
+        grid-template-columns: repeat(1, 100% );
+    }
+    main .op1{
+        width: 672px;
+    }
+    .grid-pro{
+        display: grid;
+        grid-template-columns: repeat(2, 100%);
+    }
+    .map{
+        width: 721px;
+    }
+} */
+   @media (max-width: 768px){
+    body{
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+    header{
+        max-width: 721px;
+    }
+     .logo{
+        width: 30px;
+    }
+    .titulo{
+        width: 149px;
+    font-size: 10px;
+    margin-left: 11px;
+    }
+    .navbar{
+        flex-direction: column;
+        background: var(--bg-gradient);
+        color: white;
+        position: fixed;
+        width: 567px;
+        
+        align-items: center;
+        left: 100%;
+
+    }
+    .box{
+        display: none;
+    }
+    ul li{
+        display: block;
+        color: white;
+        line-height: 70px;
+    }
+    ul li a{
+        color: white;
+        padding: 11px;
+    }
+    .grid-pro{
+        display: grid;
+        grid-gap: 0px;
+        grid-template-columns: repeat(1, 100% );
+        
+        margin-left: 16%;
+    }
+    #carrito{
+        margin-right: -130px;
+        border-radius: 50px;
+    }
+    .map{
+        display: grid;
+        grid-gap: 80px;
+        grid-template-columns: repeat(1, 100% );
+        
+        
+    }
+    .map iframe{
+      width: 100%   
+    }
+    footer{
+        width: 100%;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .main img{
+        margin-top: 22px;
+        width: 100%;
+        height: 35%;
+    
+    
+    }
+    .op1 {
+        width: 100%;
+        height: 452px
+    }.op2 {
+        width: 100%;
+        height: 452px;
+        margin-top: -274px;
+    }
+    .op3 {
+        width: 100%;
+        height: 452px;
+        margin-top: -274px;
+    }
+    .op4 {
+        width: 100%;
+        height: 452px;
+        margin-top: -274px;
+    }
+    .toggle{
+        display: block;
+        margin-top: -60px;
+        margin-left: 80%;
+        
+    }
+    .nav_visible{
+        left: 0;
+    }
+    
+   }

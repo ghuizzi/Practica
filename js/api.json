@@ -1,0 +1,38 @@
+[
+    {
+        "precio": 15,
+        "id": 1,
+        "title": "Panel Solar",
+        "thumbnailUrl": "img/pro1.jpg"
+    },
+    {
+        "precio": 250,
+        "id": 2,
+        "title": "Consola Amplificada",
+        "thumbnailUrl": "img/consola.jpg"
+    },
+    {
+        "precio": 17,
+        "id": 3,
+        "title": "Cocina Electrica",
+        "thumbnailUrl": "img/pro2.jpg"
+    },
+    {
+        "precio": 50,
+        "id": 4,
+        "title": "Ventilador Recargable",
+        "thumbnailUrl": "img/venr.jpg"
+    },
+    {
+        "precio": 20,
+        "id": 5,
+        "title": "Bajo 10",
+        "thumbnailUrl": "img/bajo.jpg"
+    },
+    {
+        "precio": 18,
+        "id": 6,
+        "title": "Led RGB",
+        "thumbnailUrl": "img/led.jpg"
+    }
+]
